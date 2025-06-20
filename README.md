@@ -13,10 +13,15 @@ A neural network-based disease predictor using free-text symptom input and a str
 
 ----data/
 -------sample_dataset.csv # Small sample dataset (100 rows)
+
 ----modelo_enfermedades.h5 # Trained Keras model
+
 ----label_encoder.pkl # Encoder for class labels
+
 ----train_model.py # Model training script
+
 ----infer_disease.py # User interaction + prediction script
+
 ----README.md
 
 //Example
@@ -27,7 +32,7 @@ Output: "Your condition may be: Tuberculosis"
 //Dataset
 
 The full dataset is too large for GitHub.  
-Instead, a 100-row sample is provided in `data/sample_dataset.csv` for demonstration purposes.
+Instead, a 100-row sample is provided in "data/sample_dataset.csv" for demonstration purposes.
 
 If you wish to train on the full dataset, structure your file with:
 - Column: `diseases` (labels)
